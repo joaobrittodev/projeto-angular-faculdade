@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="assets/home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -16,18 +17,21 @@
     <header>
       <div class="cabecalho">
         <h1>FOCUS</h1>
-        <button>
-          <a href="home.html"></a>
-          <h3>Ínicio</h3>
-        </button>
-        <button>
-          <a href="tasks.html"></a>
-          <h3>Tarefas</h3>
-        </button>
-        <button>
-          <a href="about.html"></a>
-          <h3>Sobre</h3>
-        </button>
+        <a href="home.html">
+          <button>
+            <h3>Ínicio</h3>
+          </button>
+        </a>
+        <a href="tasks.html">
+          <button>
+            <h3>Tarefas</h3>
+          </button>
+        </a>
+        <a href="about.html">
+          <button>
+            <h3>Sobre</h3>
+          </button>
+        </a>
       </div>
     </header>
 
@@ -39,11 +43,11 @@
           <button>Pausa Longa</button>
         </div>
 
-        <div class="timer">
+        <div id="timer">
           <h2>25:00</h2>
         </div>
 
-        <button class="start-btn">START</button>
+        <button id="start-btn" onclick="initializePomodoro()">START</button>
       </section>
     </main>
 
@@ -51,6 +55,7 @@
       <p>Feito por <a href="https://github.com/oaojdev" target="_blank">João Victor</a></p>
     </footer>
   </div>
+  <script src="/assets/js/home.js"></script>
 </body>
 
 </html>

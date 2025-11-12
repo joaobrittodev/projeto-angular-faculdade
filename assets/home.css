@@ -82,12 +82,12 @@ main {
   cursor: pointer;
 }
 
-.timer h2 {
+#id h2 {
   font-size: 3rem;
   margin: 20px 0;
 }
 
-.start-btn {
+#start-btn {
   background: rgb(255, 255, 255);
   color: #d95550;
   border: none;
