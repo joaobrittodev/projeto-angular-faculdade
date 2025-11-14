@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ADS FOCUS</title>
+  <title>POMO FOCUS</title>
   <link rel="stylesheet" href="assets/home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,16 +38,17 @@
     <main>
       <section class="timer-section">
         <div class="mode-buttons">
-          <button>Pomodoro</button>
-          <button>Pequena Pausa</button>
-          <button>Pausa Longa</button>
+          <button class="active" data-minutos="25">Pomodoro</button>
+          <button data-minutos="5">Pequena Pausa</button>
+          <button data-minutos="15">Pausa Longa</button>
         </div>
+
 
         <div id="timer">
           <h2>25:00</h2>
         </div>
 
-        <button id="start-btn" onclick="initializePomodoro()">START</button>
+        <button id="start-btn">START</button>
       </section>
     </main>
 

@@ -81,6 +81,17 @@ main {
   border-radius: 5px;
   cursor: pointer;
 }
+.mode-buttons.active {
+  background-color: white;
+  color: #c44541;
+  font-weight: bold;
+}
+.mode-buttons button.active {
+  background-color: white;
+  color: #c44541;
+  font-weight: bold;
+}
+
 
 #id h2 {
   font-size: 3rem;
